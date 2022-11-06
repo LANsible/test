@@ -7,5 +7,5 @@ jobs:
   docker:
     uses: LANsible/github-workflows/.github/workflows/docker-build.yml@wip
     with:
-      image_name: lansible/mold
+      image_name: lansible/test
     secrets: inherit
