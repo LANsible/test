@@ -8,5 +8,4 @@ jobs:
     uses: LANsible/github-workflows/.github/workflows/docker-build.yml@main
     with:
       image_name: lansible/test
-      platforms: linux/amd64
     secrets: inherit
